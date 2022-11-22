@@ -42,9 +42,9 @@
     </header>
 
     <div class="middle">
-        <img src="asset/homebg.png" alt="">
+        <img src="asset/homebg.svg" alt="">
     </div>
-
+    
     <script>
         $(document).ready(function() {
             $(".menu-icon").on("click", function() {
@@ -55,10 +55,10 @@
       // Scrolling Effect
 
       $(window).on("scroll", function() {
-            if($(window).scrollTop()) {
+        var gap = 20;
+            if($(window).scrollTop() > gap) {
                   $('nav').addClass('black');
             }
-
             else {
                   $('nav').removeClass('black');
             }
