@@ -86,6 +86,94 @@ header {
 }
 
 
+/*-------------------------------------- CONTENT -----------------------------------------*/
+
+section {
+   padding: 20px 100px 80px;
+}
+
+.content {
+   position: relative;
+}
+
+section h1 {
+   font-family: Arial, Helvetica, sans-serif;
+   margin: 0;
+}
+
+section p {
+   font-size: 1rem;
+   font-family: 'Open Sans';
+}
+
+
+/* INTRO */
+#intro h1 {
+   font-size: 52px;
+}
+
+.img-circle {
+   float: left;
+   margin-right: 10px;
+   width: 75px;
+}
+
+.img-circle2 {
+   position: absolute;
+   top: 48px;
+   right: 10px;
+   width: 90px;
+   z-index: -1;
+}
+
+.img-ship {
+   float: left;
+   margin: 0 55px 0 70px;
+   width: 35%;
+}
+
+.prg1 {
+   text-align: center;
+   margin: 35px 45px 0;
+}
+
+.prg2 {
+   text-align: right;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   padding-right: 55px;
+}
+
+#intro .btn {
+   background-color: #E84D3D;
+   border-radius: 15px;
+   color: white;
+   font-weight: 500;
+   position: absolute;
+   width: 160px;
+}
+
+.btn.our-fleet {
+   right: 55px;
+}
+
+.btn.services {
+   right: 300px;
+}
+
+
+/* TEAM */
+
+#team {
+   text-align: center;
+}
+
+#team .sub-heading {
+   font-size: 1.6rem;
+   margin: 0;
+}
+
+
 
 
 /* Sesi Footer */
