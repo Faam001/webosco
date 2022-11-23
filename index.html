@@ -44,6 +44,7 @@
     <div class="middle">
         <img src="asset/homebg.png" alt="">
     </div>
+<<<<<<< Updated upstream
   <footer>
         <div>
         <p class="copyright">
@@ -51,3 +52,51 @@
     </footer>
     
 </html>
+=======
+    
+    <script>
+        $(document).ready(function() {
+            $(".menu-icon").on("click", function() {
+                  $("nav ul").toggleClass("showing");
+            });
+      });
+
+      // Scrolling Effect buat nav bar
+
+      $(window).on("scroll", function() {
+        var gap = 50;
+            if($(window).scrollTop() > gap) {
+                  $('nav').addClass('black');
+            }
+            else {
+                  $('nav').removeClass('black');
+            }
+      })
+    </script>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>contact us</h4>
+                    <h3>Main Office</h3>
+                    <ul>
+                        <li><a>Jl. Tiang Bendera III/70 Jakarta 11230 Indonesia</a></li>
+                        <li><a>6911590, 6909561, 6909562</a></li>
+                        <li><a>081383456710</a></li>
+                        <li><a>mkt.oscoutama@gmail.com</a></li>
+                        <li><a>opt.oscoutama@gmail.com</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <div class="social-links">
+                        <a><img src="bki.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </footer>
+
+</body>
+</html>
+>>>>>>> Stashed changes

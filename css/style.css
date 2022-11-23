@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+<<<<<<< Updated upstream
+=======
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+>>>>>>> Stashed changes
 
 /* Sesi Header */
 
@@ -82,7 +86,11 @@ header {
 .middle {
     background-position: center;
     background-repeat: no-repeat;
+<<<<<<< Updated upstream
     background-size: fill;
+=======
+    background-size: cover;
+>>>>>>> Stashed changes
 }
 
 
@@ -90,6 +98,7 @@ header {
 
 /* Sesi Footer */
 
+<<<<<<< Updated upstream
 footer {
     padding-top: 80px;
     /* padding-top: 40px; */
@@ -106,3 +115,126 @@ footer li {
     display: inline;
     padding-right: 20px;
 }
+=======
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 50%;
+   padding: 0 0px;
+}
+.footer-col h4{
+	font-size: 32px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 18px;
+	font-weight: 500;
+	position: relative;
+}
+
+.footer-col h3{
+	font-size: 14px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 15px;
+	font-weight: 500;
+	position: relative;
+}
+
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+}
+
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+}
+
+
+/*responsive footer*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+
+
+/* Animasi */
+
+.active {
+    background: #ffffff ;
+}
+
+.active a:hover{
+    color:rgb(0, 0, 0);
+}
+
+/* size gambar */
+
+.landscape {
+    height: 30px;
+    width: 80px;
+}
+
+.portrait {
+    height: 80px;
+    width: 30px;
+}
+
+
+.square {
+    height: 75px;
+    width: 75px;
+}
+>>>>>>> Stashed changes
