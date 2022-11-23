@@ -9,43 +9,44 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 </head>
 
 <body>
     <header>
-        <a class="logosco" href="index.html"> <img src="asset/logosco.png" alt="icon"> </a>
         <nav>
-            <ul class="nav-items">
+             <div class="logosco">
+                <a href="index.html"> <img src="asset/logosco.png" alt="icon"> </a>  
+             </div>
+             <div class="menu">
+            <ul>  
                 <li>
                     <a href="index.html">Home</a>
                 </li>
                 <li>
-                    <a href=" ">History</a>
+                    <a href="#">History</a>
                 </li>
                 <li>
-                    <a href="//">Clients</a>
+                    <a href="#">Clients</a>
                 </li>
                 <li>
-                    <a href="//">Services</a>
+                    <a href="#">Services</a>
                 </li>
                 <li>
-                    <a href=" ">Fleets</a>
+                    <a href="#">Fleets</a>
                 </li>
                 <li>
-                    <a class="btn" href="//">Reach Us</a>
+                    <a class="btn" href="#">Reach Us</a>
                 </li>
             </ul>
-            <div class="menu-btn">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
-            </div>
+        </div>
         </nav>
     </header>
 
     <div class="middle">
-        <img src="asset/homebg.png" alt="">
+        <img src="asset/homebg.svg" alt="">
     </div>
+<<<<<<< HEAD
 
     <section id="intro">
         <div class="content">
@@ -121,9 +122,38 @@
 
 
     <footer>
+=======
+    
+    <script>
+        $(document).ready(function() {
+            $(".menu-icon").on("click", function() {
+                  $("nav ul").toggleClass("showing");
+            });
+      });
+
+      // Scrolling Effect
+
+      $(window).on("scroll", function() {
+        var gap = 20;
+            if($(window).scrollTop() > gap) {
+                  $('nav').addClass('black');
+            }
+            else {
+                  $('nav').removeClass('black');
+            }
+      })
+    </script>
+
+  <footer>
+>>>>>>> 1fe8a68d2b2f1ff79da56da41c65c703d9ea746e
         <div>
             <p class="copyright">
                 2022. Hak Cipta Dilindungi oleh undang-undang</p>
     </footer>
+<<<<<<< HEAD
 
 </html>
+=======
+</body>
+</html>
+>>>>>>> 1fe8a68d2b2f1ff79da56da41c65c703d9ea746e
