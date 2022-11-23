@@ -170,6 +170,9 @@ section p {
    text-align: center;
 }
 
+.row {
+   margin: 0;
+}
 
 /* INTRO */
 #intro h1 {
@@ -192,8 +195,8 @@ section p {
 }
 
 .img-ship {
-   float: left;
-   margin-left: 5%;
+   position: absolute;
+   left: 5%;
    width: 40%;
 }
 
@@ -205,17 +208,13 @@ section p {
 .prg2 {
    display: inline-block;
    text-align: right;
-   margin-top: 2.5rem;
+   margin: 2.5rem  0 0 48%;
    height: 150px;
    width: 48%;
-   position: relative;
-   left: 3%;
 }
 
 #intro .btn-box {
-   position: relative;
-   display: inline-block;
-   left: 12%;
+   text-align: right;
 }
 
 #intro .btn {
@@ -231,6 +230,9 @@ section p {
    margin-right: 100px;
 }
 
+.our-fleet {
+   margin-right: 4%;
+}
 
 
 
@@ -241,11 +243,12 @@ section p {
 }
 
 .teams {
-   padding: 0 180px;
+   padding: 0 15%;
 }
 
 .card {
    border: none;
+   display: inline-block;
    font-family: Arial, Helvetica, sans-serif;
    width: 200px;
 }
@@ -263,97 +266,10 @@ section p {
    font-weight: 300;
 }
 
-
-@media (min-width:450px) and (max-width: 600px) {
-   section {
-      padding: 20px 10px;
-   }
-
-   #intro h1 {
-      font-size: 36px;
-      padding: 1rem;
-   }
-
-   .content p {
-      font-size: 1.1rem;
-   }
-
-   .img-ship {
-      position: absolute;
-      bottom: 85px;
-      width: 70%;
-   }
-
-   .prg2 {
-      margin-top: 10px;
-      margin-left: 34%;
-      width: 60%;
-   }
-
-   #intro .btn-box {
-      display: block;
-      left: 0;
-      text-align: center;
-      margin-top: 200px;
-   }
-
-   .services {
-      margin-right: 50px;
-   }
-}
-
-@media (max-width: 450px) {
-   section {
-      padding: 20px 10px;
-   }
-
-   #intro h1 {
-      font-size: 36px;
-      padding: 1rem;
-   }
-
-   .img-circle2 {
-      top: 60px;
-      right: 0px;
-   }
-
-   .content p {
-      font-size: 1.1rem;
-   }
-
-   .img-ship {
-      position: absolute;
-      bottom: 85px;
-      width: 70%;
-   }
-
-   .prg2 {
-      margin-top: 10px;
-      margin-left: 10%;
-      width: 80%;
-   }
-
-   #intro .btn-box {
-      display: block;
-      left: 0;
-      text-align: center;
-      margin-top: 170px;
-   }
-
-   #intro .btn {
-      font-weight: 600;
-      height: 45px;
-      width: 130px;
-   }
-
-   .services {
-      margin-right: 30px;
-   }
-}
 /* clients and acquintance */
 
 .companies {
-   padding: 0 100px;
+   padding: 0 8%;
 }
 
 .companies img {
