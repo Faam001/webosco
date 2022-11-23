@@ -107,7 +107,7 @@ nav ul li a:hover {
 }
 
 
-@media(max-width: 786px) {
+@media(max-width: 1250px) {
 
    .logo {
       position: fixed;
@@ -323,7 +323,7 @@ body {
 }
 
 .footer-col {
-   width: 50%;
+   width: 65%;
    padding: 0 25px;
 }
 
@@ -372,8 +372,7 @@ body {
 }
 
 .imgcol {
-   display: block;
-   margin-left: auto;
+   display: flex;
 }
 
 .imgcol a {
@@ -383,14 +382,15 @@ body {
 }
 
 /*responsive footer*/
-@media(max-width: 767px){
+@media(max-width: 700px){
     .footer-col{
       width: 100%;
       margin-bottom: 30px;
   }
     .imgcol{
         width: 100%;
-        margin-bottom: 30px; 
+        margin-bottom: 30px;
+        margin-left: 0%; 
     }
   }
 
