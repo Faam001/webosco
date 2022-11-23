@@ -140,14 +140,154 @@ nav ul li a:hover {
 
 }
 
+/*-------------------------------------- CONTENT -----------------------------------------*/
 
-.middle {
-    width: 100%;
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat 50% 50%;
-    background-size: cover;
-}
+section {
+    padding: 50px 100px 80px;
+ }
+ 
+ .content {
+    position: relative;
+ }
+ 
+ section h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    margin: 0;
+    text-align: center;
+ }
+ 
+ .sub-heading {
+    font-size: 1.3rem;
+    font-weight: 300;
+    margin-bottom: 50px;
+ }
+ 
+ section p {
+    font-size: 1.2rem;
+    font-family: 'Open Sans';
+    text-align: center;
+ }
+ 
+ 
+ /* INTRO */
+ #intro h1 {
+    text-align: left;
+    font-size: 52px;
+ }
+ 
+ .img-circle {
+    float: left;
+    margin-right: 10px;
+    width: 75px;
+ }
+ 
+ .img-circle2 {
+    position: absolute;
+    top: 48px;
+    right: 10px;
+    width: 90px;
+    z-index: -1;
+ }
+ 
+ .img-ship {
+    float: left;
+    margin: 0 55px 0 65px;
+    width: 450px;
+ }
+ 
+ .prg1 {
+    text-align: center;
+    margin: 35px 45px 0;
+ }
+ 
+ .prg2 {
+    text-align: right;
+    margin: 30px 55px;
+ }
+ 
+ #intro .btn-box {
+    position: absolute;
+    display: inline-block;
+    right: 55px;
+ }
+ 
+ .btn-box .btn {
+    background-color: #E84D3D;
+    border-radius: 15px;
+    color: white;
+    font-weight: 600;
+    height: 45px;
+    width: 170px;
+ }
+ 
+ .services {
+    margin-right: 130px;
+ }
+ 
+ 
+ /* TEAM */
+ 
+ #team {
+    text-align: center;
+ }
+ 
+ .teams {
+    padding: 0 180px;
+ }
+ 
+ .card {
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 200px;
+ }
+ 
+ .card img {
+    max-width: 80%;
+    margin: 0 auto 20px;
+ }
+ 
+ .card-body {
+    padding: 0;
+ }
+ 
+ .card-text {
+    font-weight: 300;
+ }
+ 
+ 
+ /* clients and acquintance */
+ 
+ .companies {
+    padding: 0 100px;
+ }
+ 
+ .companies img {
+    max-height: 150px;
+    max-width: 100%;
+    margin-bottom: 30px;
+ }
+ 
+ 
+ .middle {
+     width: 100%;
+     height: 100%;
+     background-position: center;
+     background-repeat: no-repeat 50% 50%;
+     background-size: cover;
+ }
+ 
+ 
+ 
+ .middle {
+     width: 100%;
+     height: 100%;
+     background-position: center;
+     background-repeat: no-repeat 50% 50%;
+     background-size: cover;
+ }
+
+
 
 /* Sesi Footer */
 
