@@ -140,7 +140,6 @@ nav ul li a {
 }
 
 
-<<<<<<< HEAD
 /*-------------------------------------- CONTENT -----------------------------------------*/
 
 section {
@@ -269,11 +268,6 @@ section p {
 }
 
 
-
-
-
-
-=======
 .middle {
     width: 100%;
     height: 100%;
@@ -281,7 +275,16 @@ section p {
     background-repeat: no-repeat 50% 50%;
     background-size: cover;
 }
->>>>>>> 1fe8a68d2b2f1ff79da56da41c65c703d9ea746e
+
+
+
+.middle {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat 50% 50%;
+    background-size: cover;
+}
 
 /* Sesi Footer */
 
