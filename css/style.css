@@ -278,27 +278,21 @@ section p {
    margin-bottom: 30px;
 }
 
-
-.middle {
-   width: 100%;
-   height: 100%;
-   background-position: center;
-   background-repeat: no-repeat 50% 50%;
-   background-size: cover;
-   overflow: hidden;
+ .middle {
+    background-image: url(../asset/homebg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 500px;
+    padding-bottom: 300px;
+    text-align: left;
+    padding-left: 50px ;
 }
 
-
-
-.middle {
-   width: 100%;
-   height: 100%;
-   background-position: center;
-   background-repeat: no-repeat 50% 50%;
-   background-size: cover;
+.middle a {
+    font-size: 35px;
+    font-weight: bold;
 }
-
-
 
 /* Sesi Footer */
 
@@ -389,7 +383,16 @@ body {
 }
 
 /*responsive footer*/
-
+@media(max-width: 767px){
+    .footer-col{
+      width: 100%;
+      margin-bottom: 30px;
+  }
+    .imgcol{
+        width: 100%;
+        margin-bottom: 30px; 
+    }
+  }
 
 
 .active {
