@@ -172,6 +172,7 @@ section p {
 
 /* INTRO */
 #intro h1 {
+   text-align: left;
    font-size: 52px;
 }
 
