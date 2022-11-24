@@ -1,0 +1,98 @@
+@media (min-width:600px) and (max-width: 850px) {
+    /* intro */
+    section {
+       padding: 20px 10px;
+    }
+ 
+    #intro h1 {
+       font-size: 36px;
+       padding: 1rem;
+    }
+ 
+    .content p {
+       font-size: 1.1rem;
+    }
+ 
+    .img-ship {
+       position: absolute;
+       bottom: 85px;
+       width: 70%;
+    }
+ 
+    .prg2 {
+       margin-top: 10px;
+       margin-left: 34%;
+       width: 60%;
+    }
+ 
+    #intro .btn-box {
+       display: block;
+       left: 0;
+       text-align: center;
+       margin-top: 200px;
+    }
+ 
+    .services {
+       margin-right: 50px;
+    }
+
+    /* teams */
+    .teams .col-md-4 {
+        margin-bottom: 20px;
+    }
+ }
+
+
+ @media (max-width: 600px) {
+    section {
+       padding: 20px 10px;
+    }
+ 
+    #intro h1 {
+       font-size: 36px;
+       padding: 1rem;
+    }
+ 
+    .img-circle2 {
+       top: 60px;
+       right: 0px;
+    }
+ 
+    .content p {
+       font-size: 1.1rem;
+    }
+ 
+    .img-ship {
+       position: absolute;
+       bottom: 85px;
+       width: 70%;
+    }
+ 
+    .prg2 {
+       margin-top: 10px;
+       margin-left: 10%;
+       width: 80%;
+    }
+ 
+    #intro .btn-box {
+       display: block;
+       left: 0;
+       text-align: center;
+       margin-top: 170px;
+    }
+ 
+    #intro .btn {
+       font-weight: 600;
+       height: 45px;
+       width: 130px;
+    }
+ 
+    .services {
+       margin-right: 30px;
+    }
+
+    /* teams */
+    .teams .col-md-4 {
+        margin-bottom: 20px;
+    }
+ }
