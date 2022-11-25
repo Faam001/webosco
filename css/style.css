@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
 
-
-/* Sesi Header */
+html {
+   scroll-behavior: smooth;
+ }
+ 
+ /* Sesi Header */
 
 a:hover {
    cursor: pointer;
@@ -10,11 +13,12 @@ a:hover {
 
 .logosco {
    position: fixed;
-   float: left;
-   margin: 3px 46px;
+   margin: 3px 20px;
+   top: 0;
    font-weight: bold;
-   font-size: 25px;
-
+   font-size: 25px; 
+   margin-top: 5px;
+   transition: 500ms;
 }
 
 .logosco:hover {
@@ -30,55 +34,56 @@ a:hover {
 header {
    position: fixed;
    display: flex;
+   z-index: 3;
    top: 0;
    left: 0;
    width: 100%;
    justify-content: space-around;
    align-items: center;
    background-color: transparent;
-   padding: 45px 0px;
+   padding: 46px 0px;
+   transition: 500ms;
 }
 
 nav {
    position: fixed;
    width: 100%;
    line-height: 60px;
+   transition: 500ms;
 }
 
 nav ul {
    list-style: none;
    background: rgba(0, 0, 0, 0);
-   overflow: hidden;
    color: #fff;
    padding: 0;
    text-align: right;
    margin: 0;
-   padding-right: 40px;
-   transition: 500ms;
+   overflow: hidden;
 }
 
-nav.black ul {
-   background: #fff;
+header.black{
+  background-color: #24262b;
 }
 
 nav ul li {
    display: inline-block;
-   padding: 16px 40px;
-   font-weight: 500;
+   padding: 16px 20px;
    font-family: sans-serif;
 }
 
 nav ul li a {
    text-decoration: none;
-   color: #000;
    font-size: 18px;
+   font-weight: 500;
+   color: #000;
+   transition: 500ms;
 }
 
 nav ul li a:hover {
-   transition: 500ms;
    text-decoration: none;
-   color: rgb(29, 84, 195);
-   opacity: 0.8;
+   color: rgb(0, 0, 0);
+   opacity: 0.7;
 }
 
 .menu-icon {
@@ -89,13 +94,14 @@ nav ul li a:hover {
    box-sizing: border-box;
    padding: 15px 24px;
    cursor: pointer;
-   color: #000;
+   color: rgb(0, 0, 0);
    display: none;
 }
 
 .menu .btn {
    color: #ffffff;
    margin-left: 20px;
+   margin-right: 20px;
    padding: 14px 25px;
    font-weight: bold;
    background-color: #E84D3D;
@@ -107,17 +113,15 @@ nav ul li a:hover {
 
 .menu .btn:hover {
    transition: 500ms;
-   opacity: 0.7;
+   opacity: 0.6;
 }
 
 
-@media(max-width: 1250px) {
+@media(max-width: 980px) {
 
-   .logo {
+   .logosco {
       position: fixed;
-      top: 0;
-      margin-top: 16px;
-   }
+       }
 
    nav ul {
       max-height: 0px;
@@ -126,10 +130,6 @@ nav ul li a:hover {
 
    nav.black ul {
       background: #000;
-   }
-
-   .showing {
-      max-height: 34em;
    }
 
    nav ul li {
@@ -142,7 +142,6 @@ nav ul li a:hover {
    .menu-icon {
       display: block;
    }
-
 }
 
 /*-------------------------------------- CONTENT -----------------------------------------*/
@@ -178,6 +177,33 @@ section p {
    margin: 0;
 }
 
+/*Middle*/
+
+.middle {
+   background-image: url(../asset/homebg.png);
+   background-position: right;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 700px;
+   padding: 140px 0 100px 70px;
+}
+
+.middle p {
+   font-size: 26px;
+   font-family: 'Open Sans';
+   margin: 0;
+   font-weight: lighter;
+   animation: ease-in;
+   animation-duration: 500ms;
+}
+
+.middle b {
+font-size: 26px;
+   font-family: 'Open Sans';
+   margin: 0;
+   font-weight: bold;
+}
+
 /* INTRO */
 #intro h1 {
    text-align: left;
@@ -202,14 +228,17 @@ section p {
    position: absolute;
    left: 5%;
    width: 40%;
+   z-index: -1;
 }
 
 .prg1 {
    text-align: center;
    margin: 35px 4% 0;
+   font-weight: 500;
 }
 
 .prg2 {
+   font-weight: 500;
    display: inline-block;
    text-align: right;
    margin: 2.5rem 0 0 48%;
@@ -282,22 +311,6 @@ section p {
    margin-bottom: 30px;
 }
 
-.middle {
-   background-image: url(../asset/homebg.png);
-   background-position: right;
-   background-repeat: no-repeat;
-   background-size: cover;
-   height: 700px;
-   padding: 140px 0 100px 70px;
-}
-
-.slogan * {
-   font-size: 26px;
-   font-family: 'Open Sans';
-   margin: 0;
-}
-
-
 
 /* Sesi Footer */
 body {
@@ -326,9 +339,8 @@ body {
    padding-top: 40px;
    padding-bottom: 10px;
 }
-
 .footer-col {
-   width: 65%;
+   width: 50%;
    padding: 0 25px;
 }
 
@@ -401,13 +413,3 @@ body {
    display: inline-block;
    width: 1.5rem;
 }
-
-
-
-/* .active {
-   background: #ffffff;
-}
-
-.active a:hover {
-   color: rgb(0, 0, 0);
-} */

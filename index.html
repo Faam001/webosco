@@ -43,9 +43,7 @@
                     <li>
                         <a href="#">Fleets</a>
                     </li>
-                    <li>
-                        <a class="btn" href="#">Reach Us</a>
-                    </li>
+                        <a href="#" class="btn">Reach Us</a>
                 </ul>
             </div>
         </nav>
@@ -54,10 +52,8 @@
 
     <!-- MAIN -->
     <div class="middle">
-        <div class="slogan">
             <p>an oilfiled service company</p>
-            <b>Reliable Experienced Always Maintained</b>
-        </div>
+            <b>Reliable. Experienced. Always Maintained.</b>
     </div>
 
 
@@ -199,13 +195,18 @@
         // Scrolling Effect
 
         $(window).on("scroll", function () {
-            var gap = 100;
+            var gap = 60;
             if ($(window).scrollTop() > gap) {
-                $('nav').addClass('black');
+                $('header').addClass('black');
+                $('nav ul li a ').css('color', '#fff');
+                $('.logosco a ').css('color', '#fff');
             } else {
-                $('nav').removeClass('black');
+                $('header').removeClass('black');
+                $('nav ul li a ').css('color', '#000');
+                $('.logosco a ').css('color', '#000');
             }
         })
+
     </script>
 </body>
 </html>
