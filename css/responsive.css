@@ -1,5 +1,9 @@
 @media (min-width:600px) and (max-width: 850px) {
 
+   .middle.homepage {
+      padding-left: 30px;
+   }
+
    /* intro */
    section {
       padding: 20px 10px;
@@ -44,14 +48,21 @@
 
    /* footer */
    .imgcol {
-      display: block;
-      margin-right: auto;
-      height: 70px;
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 50px;
    }
+
 }
 
 
 @media (max-width: 600px) {
+   
+   .middle.homepage {
+      padding-left: 30px;
+   }
+
    section {
       padding: 20px 10px;
    }
@@ -111,8 +122,9 @@
    }
 
    .imgcol {
-      display: block;
-      margin-right: auto;
-      height: 70px;
-}
+      position: absolute;
+      top: -30px;
+      right: -10px;
+      height: 30px;
+   }
 }

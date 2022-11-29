@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PT. Osco Utama</title>
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/style-services.css">
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/aa85d27970.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <nav>
+            <div class="logosco">
+                <a href="index.html"> <img src="asset/logosco.png" alt="icon"> OSCO UTAMA </a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">History</a>
+                    </li>
+                    <li>
+                        <a href="#">Clients</a>
+                    </li>
+                    <li>
+                        <a href="#">Services</a>
+                    </li>
+                    <li>
+                        <a href="#">Fleets</a>
+                    </li>
+                        <a href="#" class="btn">Reach Us</a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- MAIN -->
+    <div class="middle services-page">\
+        <div class="middle-text">
+            <p><b>Our services</b></p>
+            <b>Reliable. Experienced. Always Maintained.</b>
+            <p>We provide various sea freight services with our fleets</p>
+            <button class="btn">Reach Us</button>
+        </div>
+    </div>
+
+
+
+
+    <!-- JS -->
+    <script>
+        $(document).ready(function () {
+            $(".menu-icon").on("click", function () {
+                $("nav ul").toggleClass("showing");
+            });
+        });
+
+        // Scrolling Effect
+
+        $(window).on("scroll", function () {
+            var gap = 60;
+            if ($(window).scrollTop() > gap) {
+                $('header').addClass('black');
+                $('nav ul li a ').css('color', '#fff');
+                $('.logosco a ').css('color', '#fff');
+            } else {
+                $('header').removeClass('black');
+                $('nav ul li a ').css('color', '#000');
+                $('.logosco a ').css('color', '#000');
+            }
+        })
+
+    </script>
+</body>
+</html>

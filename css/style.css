@@ -3,9 +3,9 @@
 
 html {
    scroll-behavior: smooth;
- }
- 
- /* Sesi Header */
+}
+
+/* Sesi Header */
 
 a:hover {
    cursor: pointer;
@@ -16,7 +16,7 @@ a:hover {
    margin: 3px 20px;
    top: 0;
    font-weight: bold;
-   font-size: 25px; 
+   font-size: 25px;
    margin-top: 5px;
    transition: 500ms;
 }
@@ -62,8 +62,8 @@ nav ul {
    overflow: hidden;
 }
 
-header.black{
-  background-color: #24262b;
+header.black {
+   background-color: #24262b;
 }
 
 nav ul li {
@@ -121,7 +121,7 @@ nav ul li a:hover {
 
    .logosco {
       position: fixed;
-       }
+   }
 
    nav ul {
       max-height: 0px;
@@ -179,7 +179,7 @@ section p {
 
 /*Middle*/
 
-.middle {
+.middle.homepage {
    background-image: url(../asset/homebg.png);
    background-position: right;
    background-repeat: no-repeat;
@@ -198,7 +198,7 @@ section p {
 }
 
 .middle b {
-font-size: 26px;
+   font-size: 26px;
    font-family: 'Open Sans';
    margin: 0;
    font-weight: bold;
@@ -339,6 +339,7 @@ body {
    padding-top: 40px;
    padding-bottom: 10px;
 }
+
 .footer-col {
    width: 50%;
    padding: 0 25px;
@@ -376,7 +377,8 @@ body {
    margin-bottom: 5px;
 }
 
-.footer-col ul li a, .copyright {
+.footer-col ul li a,
+.copyright {
    font-size: 16px;
    color: #ffffff;
    text-decoration: none;
@@ -384,7 +386,8 @@ body {
    margin: 0;
 }
 
-.footer-col a:hover, .copyright:hover {
+.footer-col a:hover,
+.copyright:hover {
    color: #ffffff;
 }
 
