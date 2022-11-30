@@ -17,7 +17,7 @@
     <header>
         <nav>
             <div class="logosco">
-                <a href="index.html"> <img src="asset/logosco.png" alt="icon"> OSCO UTAMA </a>
+                <a href="index.html"> <img src="asset/logosco.png" alt="icon" id="logo"></a>
             </div>
             <div class="menu">
                 <ul>
@@ -45,29 +45,44 @@
     </header>
 
     <div class="middle">
+<<<<<<< Updated upstream
         <ul>
             <li><a>an oilfiled service company</a></li>
             <li><a>Reliable Experienced Always Maintained</a></li>
         </ul>
+=======
+        <div class="middlelogo">
+            <a href="index.html"> <img src="asset/logoscomid.png" alt="icon"></a>
+        </div>
+        <div>
+            <h1>OSCO UTAMA</h1>
+            <p> an oilfiled service company</p>
+            <br>
+            <b>Reliable. Experienced. Always 
+            <br>Maintained.</b>
+        </div>    
+        <div class="middle-btn">
+            <a href="#" class="btn">Reach Us</a>
+        </div>
+>>>>>>> Stashed changes
     </div>
 
     <section id="intro">
         <div class="content">
-            <img class="img-circle" src="asset/decor.svg" alt="">
             <img class="img-circle2" src="asset/decor2.svg" alt="">
-            <h1><b>What We Are</b></h1>
+            <h1><b>Establised <br> Since 1972.</b></h1>
+            <img class="img-ship" src="asset/map.svg" alt="">
             <p class="prg1">focusing in the sea freight industry, we provide fleet services such as oil barges, tug
                 boats
                 and cargo barge to handle a variety of oil cargos and materials. As we try to preserve our reliability
                 and services to our
                 clients, we are obligated to consistently maintain our ships to meet the upmost quality standards.</p>
-            <img class="img-ship" src="asset/ship.svg" alt="">
             <p class="prg2">Established in 1972, We have an abundant of experience chatering our ships across many major
                 and minor ports in Indonesia. As such, we hope to provide reliable services to all of our clients. </p>
             <div class="btn-box">
                 <button class="btn services">Services</button>
                 <button class="btn our-fleet">Our fleet</button>
-            </div>
+        </div>
         </div>
     </section>
 
@@ -137,11 +152,21 @@
         // Scrolling Effect
 
         $(window).on("scroll", function () {
+<<<<<<< Updated upstream
             var gap = 100;
             if ($(window).scrollTop() > gap) {
                 $('nav').addClass('black');
             } else {
                 $('nav').removeClass('black');
+=======
+            var gap = 120;
+            if ($(window).scrollTop() > gap) {
+                $('header').addClass('black');
+                document.getElementById("logo").style.visibility = "visible";
+            } else {
+                $('header').removeClass('black');
+                document.getElementById("logo").style.visibility = "hidden";
+>>>>>>> Stashed changes
             }
         })
     </script>

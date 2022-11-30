@@ -9,18 +9,20 @@
    float: left;
    margin: 3px 46px;
    font-weight: bold;
+<<<<<<< Updated upstream
    font-size: 25px;
 
+=======
+   font-size: 25px; 
+   margin-top: 5px;
+   transition: 500ms;
+   visibility: hidden;
+>>>>>>> Stashed changes
 }
 
 .logosco:hover {
    transition: all 0.3s ease;
    opacity: 0.7;
-}
-
-.logosco a {
-   color: #000;
-   text-decoration: none;
 }
 
 header {
@@ -32,12 +34,17 @@ header {
    justify-content: space-around;
    align-items: center;
    background-color: transparent;
+<<<<<<< Updated upstream
    padding: 45px 0px;
+=======
+   padding: 50px 0px;
+   transition: 500ms;
+>>>>>>> Stashed changes
 }
 
 nav {
    position: fixed;
-   width: 100%;
+   width: 90%;
    line-height: 60px;
 }
 
@@ -67,7 +74,12 @@ nav ul li {
 nav ul li a {
    text-decoration: none;
    color: #000;
+<<<<<<< Updated upstream
    font-size: 18px;
+=======
+   transition: 500ms;
+   color: #fff;
+>>>>>>> Stashed changes
 }
 
 nav ul li a:hover {
@@ -101,19 +113,35 @@ nav ul li a:hover {
    transition: all 0.3s ease;
 }
 
-.menu .btn:hover {
+.btn:hover {
    transition: 500ms;
+<<<<<<< Updated upstream
    opacity: 0.7;
 }
 
 
 @media(max-width: 1250px) {
+=======
+   opacity: 0.6;
+   color: #fff:
+}
+
+
+
+
+@media(max-width: 980px) {
+>>>>>>> Stashed changes
 
    .logo {
       position: fixed;
+<<<<<<< Updated upstream
       top: 0;
       margin-top: 16px;
    }
+=======
+      align-items: center;
+       }
+>>>>>>> Stashed changes
 
    nav ul {
       max-height: 0px;
@@ -174,7 +202,74 @@ section p {
    margin: 0;
 }
 
+<<<<<<< Updated upstream
+=======
+/*Middle*/
+
+.middle {
+   background-image: url(../asset/homebg.png);
+   background-position: right;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 1080px;
+   padding: 210px 0 100px 200px;
+   color: #fff
+}
+
+.middlelogo {
+   position: absolute;
+   margin: 0 5px;
+   margin-left: -160px;
+
+}
+
+.middle p {
+   font-size: 32px;
+   font-family: 'Open Sans';
+   margin: 0;
+   font-weight: lighter;
+   animation: ease-in;
+   animation-duration: 500ms;
+}
+
+.middle-btn {
+   padding-top: 125px;
+   padding-right: 0;
+   padding-left: 1px;
+}
+
+.middle .btn {
+   color: #ffffff;
+   margin-left: 20px;
+   margin-right: 20px;
+   padding: 20px 45px;
+   font-weight: bold;
+   font-size: 25px;
+   background-color: #E84D3D;
+   border-radius: 50px;
+   cursor: pointer;
+   transition: all 0.3s ease;
+   }
+
+.middle h1 {
+   font-weight: bold;
+   font-size: 52px;
+}
+
+.middle b {
+   font-size: 32px;
+   font-family: 'Open Sans';
+   margin: 0;
+   font-weight: bold;
+}
+
+>>>>>>> Stashed changes
 /* INTRO */
+
+#intro {
+   padding-top: 0px;
+}
+
 #intro h1 {
    text-align: left;
    font-size: 52px;
@@ -195,26 +290,43 @@ section p {
 }
 
 .img-ship {
+<<<<<<< Updated upstream
    position: absolute;
    left: 5%;
    width: 40%;
+=======
+   display: block;
+   margin-left: auto;
+   width: 65%;
+   z-index: -1;
+>>>>>>> Stashed changes
 }
 
 .prg1 {
    text-align: center;
+<<<<<<< Updated upstream
    margin: 35px 4% 0;
+=======
+   display: inline-block;
+   margin: 35px 15% 0;
+   font-weight: 500;
+>>>>>>> Stashed changes
 }
 
 .prg2 {
    display: inline-block;
+<<<<<<< Updated upstream
    text-align: right;
    margin: 2.5rem  0 0 48%;
+=======
+   text-align: center;
+   margin: 35px 15% 0;
+>>>>>>> Stashed changes
    height: 150px;
-   width: 48%;
 }
 
 #intro .btn-box {
-   text-align: right;
+   text-align: center;
 }
 
 #intro .btn {
@@ -240,6 +352,7 @@ section p {
 
 #team {
    text-align: center;
+   padding-top: 160px;
 }
 
 .teams {
