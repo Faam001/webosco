@@ -23,10 +23,10 @@
     <!-- NAVBAR -->
     <header>
         <nav>
-            <div class="logosco">
-                <a href="index.html"> <img src="asset/logosco.png" alt="icon"> OSCO UTAMA </a>
-            </div>
             <div class="menu">
+            <div class="logosco">
+                <a href="index.html"> <img src="asset/logosco.png" alt="icon"></a>
+            </div>
                 <ul>
                     <li>
                         <a href="index.html">Home</a>
@@ -52,8 +52,12 @@
 
     <!-- MAIN -->
     <div class="middle homepage">
+        <div class="middle text">
+            <h1>OSCO UTAMA</h1>
             <p>an oilfiled service company</p>
-            <b>Reliable. Experienced. Always Maintained.</b>
+            <b>Reliable. Experienced. Always <br> Maintained.</b>
+        </div>
+            <a href="#" class="btn">Reach Us</a>
     </div>
 
 
@@ -174,7 +178,7 @@
                 </div>
 
                 <div class="imgcol">
-                    <a href="#"><img src="asset/foot.png" alt=""></a>
+                    <a><img src="asset/foot.png" alt=""></a>
                 </div>
             </div>
         </div>
@@ -198,12 +202,8 @@
             var gap = 60;
             if ($(window).scrollTop() > gap) {
                 $('header').addClass('black');
-                $('nav ul li a ').css('color', '#fff');
-                $('.logosco a ').css('color', '#fff');
             } else {
                 $('header').removeClass('black');
-                $('nav ul li a ').css('color', '#000');
-                $('.logosco a ').css('color', '#000');
             }
         })
 

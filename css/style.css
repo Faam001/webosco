@@ -13,12 +13,11 @@ a:hover {
 
 .logosco {
    position: fixed;
+   display: inline-block;
    margin: 3px 20px;
-   top: 0;
+   top: 20px;
    font-weight: bold;
    font-size: 25px;
-   margin-top: 5px;
-   transition: 500ms;
 }
 
 .logosco:hover {
@@ -27,7 +26,7 @@ a:hover {
 }
 
 .logosco a {
-   color: #000;
+   color: #fff;
    text-decoration: none;
 }
 
@@ -35,7 +34,7 @@ header {
    position: fixed;
    display: flex;
    z-index: 3;
-   top: 0;
+   margin-top: 20px;
    left: 0;
    width: 100%;
    justify-content: space-around;
@@ -47,7 +46,7 @@ header {
 
 nav {
    position: fixed;
-   width: 100%;
+   width: 80%;
    line-height: 60px;
    transition: 500ms;
 }
@@ -63,7 +62,13 @@ nav ul {
 }
 
 header.black {
+   margin: auto;
    background-color: #24262b;
+   border-radius: 100px;
+   width: 80%;
+   margin-top: 20px;
+   margin-left: 10%;
+   padding: 45px;
 }
 
 nav ul li {
@@ -75,14 +80,14 @@ nav ul li {
 nav ul li a {
    text-decoration: none;
    font-size: 18px;
-   font-weight: 500;
-   color: #000;
+   font-weight: 600;
+   color: #fff;
    transition: 500ms;
 }
 
 nav ul li a:hover {
    text-decoration: none;
-   color: rgb(0, 0, 0);
+   color: #fff;
    opacity: 0.7;
 }
 
@@ -97,7 +102,6 @@ nav ul li a:hover {
    color: rgb(0, 0, 0);
    display: none;
 }
-
 .menu .btn {
    color: #ffffff;
    margin-left: 20px;
@@ -111,7 +115,7 @@ nav ul li a:hover {
    transition: all 0.3s ease;
 }
 
-.menu .btn:hover {
+.btn:hover {
    transition: 500ms;
    opacity: 0.6;
 }
@@ -137,6 +141,9 @@ nav ul li a:hover {
       width: 100%;
       padding: 24px;
       text-align: center;
+   }
+   header.black {
+      margin-left: 10%;
    }
 
    .menu-icon {
@@ -184,12 +191,17 @@ section p {
    background-position: right;
    background-repeat: no-repeat;
    background-size: cover;
-   height: 700px;
+   height: 900px;
    padding: 140px 0 100px 70px;
 }
 
+.middle.text {
+   margin-top: 120px;
+   margin-left: 5%;
+}
+
 .middle p {
-   font-size: 26px;
+   font-size: 32px;
    font-family: 'Open Sans';
    margin: 0;
    font-weight: lighter;
@@ -197,11 +209,37 @@ section p {
    animation-duration: 500ms;
 }
 
+.middle h1{
+   font-weight: 600;
+   color: #fff;
+}
+
+.middle .btn {
+   color: #ffffff;
+   margin-top: 100px;
+   padding: 18px 50px;
+   margin-left: 5%;
+   font-size: 32px;
+   font-weight: bold;
+   background-color: #E84D3D;
+   border: none;
+   border-radius: 50px;
+   cursor: pointer;
+   transition: all 0.3s ease;
+}
+
+
+
 .middle b {
-   font-size: 26px;
+   font-size: 32px;
    font-family: 'Open Sans';
    margin: 0;
    font-weight: bold;
+   color: #fff;
+}
+
+.middle p {
+   color: #fff;
 }
 
 /* INTRO */
