@@ -3,7 +3,7 @@
     background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 700px;
+    height: 900px;
     position: relative;
  }
 
@@ -16,8 +16,10 @@
     text-align: center;
  }
 
+
  .middle-text p {
     font-size: 21px;
+    animation: transitionIn 1s;
  }
 
  .middle-text > p:first-child{

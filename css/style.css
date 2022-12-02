@@ -3,8 +3,8 @@
 
 html {
    scroll-behavior: smooth;
+   animation: transitionIn 500ms;
 }
-
 /* Sesi Header */
 
 a:hover {
@@ -46,7 +46,7 @@ header {
 
 nav {
    position: fixed;
-   width: 80%;
+   width: 85%;
    line-height: 60px;
    transition: 500ms;
 }
@@ -65,9 +65,9 @@ header.black {
    margin: auto;
    background-color: #24262b;
    border-radius: 100px;
-   width: 80%;
+   width: 85%;
    margin-top: 20px;
-   margin-left: 10%;
+   margin-left: 7%;
    padding: 45px;
 }
 
@@ -80,9 +80,8 @@ nav ul li {
 nav ul li a {
    text-decoration: none;
    font-size: 18px;
-   font-weight: 600;
+   font-weight: 500;
    color: #fff;
-   transition: 500ms;
 }
 
 nav ul li a:hover {
@@ -108,6 +107,7 @@ nav ul li a:hover {
    margin-right: 20px;
    padding: 14px 25px;
    font-weight: bold;
+   font-size: 20px;
    background-color: #E84D3D;
    border: none;
    border-radius: 50px;
@@ -123,6 +123,8 @@ nav ul li a:hover {
 
 @media(max-width: 980px) {
 
+   
+   
    .logosco {
       position: fixed;
    }
@@ -143,7 +145,7 @@ nav ul li a:hover {
       text-align: center;
    }
    header.black {
-      margin-left: 10%;
+      margin-left: 8%;
    }
 
    .menu-icon {
@@ -191,13 +193,14 @@ section p {
    background-position: right;
    background-repeat: no-repeat;
    background-size: cover;
-   height: 900px;
+   height: 960px;
    padding: 140px 0 100px 70px;
 }
 
 .middle.text {
    margin-top: 120px;
    margin-left: 5%;
+   animation: transitionIn 1.5s;
 }
 
 .middle p {
@@ -205,8 +208,6 @@ section p {
    font-family: 'Open Sans';
    margin: 0;
    font-weight: lighter;
-   animation: ease-in;
-   animation-duration: 500ms;
 }
 
 .middle h1{
@@ -222,8 +223,7 @@ section p {
    font-size: 32px;
    font-weight: bold;
    background-color: #E84D3D;
-   border: none;
-   border-radius: 50px;
+   border-radius: 100px;
    cursor: pointer;
    transition: all 0.3s ease;
 }
@@ -454,3 +454,20 @@ body {
    display: inline-block;
    width: 1.5rem;
 }
+
+
+/* ANIMASI */
+
+@keyframes transitionIn {
+   from {
+      opacity: 0;
+      transform: translateY(-15px);
+   }
+
+   to {
+      opacity: 1;
+      transform: translateY(0);
+   }
+}
+
+@keyframes 
