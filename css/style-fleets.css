@@ -1,5 +1,5 @@
 .middle.services-page {
-    background-image: url(../asset/services-bg.png);
+    background-image: url(../asset/fleets-bg.png);
     background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
@@ -28,7 +28,7 @@
 
  .middle-text .btn {
     background-color: #E84D3D;
-    border-radius: 50px;
+    border-radius: 20px;
     color: #fff;
     font-size: 18px;
     font-weight: bold;
