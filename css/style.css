@@ -118,6 +118,20 @@ nav ul li a:hover {
    transition: all 0.3s ease;
 }
 
+.btn {
+   color: #ffffff;
+   margin-left: 20px;
+   margin-right: 20px;
+   padding: 14px 25px;
+   font-weight: bold;
+   font-size: 20px;
+   background-color: #E84D3D;
+   border: none;
+   border-radius: 50px;
+   cursor: pointer;
+   transition: all 0.3s ease;
+}
+
 .btn:hover {
    transition: 500ms;
    opacity: 0.6;
