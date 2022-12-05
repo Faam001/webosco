@@ -50,19 +50,38 @@
         </nav>
     </header>
 
-
-    <!-- MAIN -->
-    <div class="middle services-page">
-        <div class="middle-text">
-            <p><b>Our services</b></p>
-            <b>Reliable. Experienced. Always Maintained.</b>
-            <p>We provide various sea freight services with our fleets</p>
-            <button class="btn">Reach Us</button>
+    <div class="row">
+            <h4>contact us</h4>
+            <h3>Main Office</h3>
+            <ul>
+                <li>
+                    <div class="icon">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <a>Jl. Tiang Bendera III/70 Jakarta 11230 Indonesia</a>
+                </li>
+                <li>
+                    <div class="icon">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <a>6911590, 6909561, 6909562</a>
+                </li>
+                <li>
+                    <div class="icon">
+                        <i class="icon fa-brands fa-whatsapp"></i>
+                    </div>
+                    <a>081383456710</a>
+                </li>
+                <li>
+                    <div class="icon">
+                        <i class="icon fa-regular fa-envelope"></i>
+                    </div>
+                        <a>mkt.oscoutama@gmail.com</a><br>
+                    <div class="icon"></div>
+                        <a>opt.oscoutama@gmail.com</a>
+                </li>
+            </ul>
         </div>
-    </div>
-
-
-
 
 
 
@@ -71,39 +90,6 @@
     <footer class="footer position-relative">
         <div class="container position-relative">
             <div class="row">
-                <div class="footer-col">
-                    <h4>contact us</h4>
-                    <h3>Main Office</h3>
-                    <ul>
-                        <li>
-                            <div class="icon">
-                                <i class="fa-solid fa-location-dot"></i>
-                            </div>
-                            <a>Jl. Tiang Bendera III/70 Jakarta 11230 Indonesia</a>
-                        </li>
-                        <li>
-                            <div class="icon">
-                                <i class="fa-solid fa-phone"></i>
-                            </div>
-                            <a>6911590, 6909561, 6909562</a>
-                        </li>
-                        <li>
-                            <div class="icon">
-                                <i class="icon fa-brands fa-whatsapp"></i>
-                            </div>
-                            <a>081383456710</a>
-                        </li>
-                        <li>
-                            <div class="icon">
-                                <i class="icon fa-regular fa-envelope"></i>
-                            </div>
-                                <a>mkt.oscoutama@gmail.com</a><br>
-                            <div class="icon"></div>
-                                <a>opt.oscoutama@gmail.com</a>
-                        </li>
-                    </ul>
-                </div>
-
                 <div class="imgcol">
                     <a href="#"><img src="asset/foot.png" alt=""></a>
                 </div>
@@ -124,15 +110,8 @@
         });
 
         // Scrolling Effect
-
-        $(window).on("scroll", function () {
-            var gap = 60;
-            if ($(window).scrollTop() > gap) {
-                $('header').addClass('black');
-            } else {
-                $('header').removeClass('black');
-            }
-        })
+        $(window).on("load", function () {
+        $('header').addClass('black');
 
     </script>
 </body>
