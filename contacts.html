@@ -12,7 +12,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
-    <link rel="stylesheet" href="css/style-services.css">
+    <link rel="stylesheet" href="css/style-contacts.css">
     <!-- jquery -->
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <!-- fontawesome -->
@@ -22,7 +22,7 @@
 <body>
 
     <!-- NAVBAR -->
-    <header>
+    <header class="black">
         <nav>
             <div class="logosco">
                 <a href="index.html"> <img src="asset/logosco.png" alt="icon"></a>
@@ -50,41 +50,49 @@
         </nav>
     </header>
 
-    <div class="row">
-            <h4>contact us</h4>
-            <h3>Main Office</h3>
-            <ul>
-                <li>
-                    <div class="icon">
-                        <i class="fa-solid fa-location-dot"></i>
-                    </div>
-                    <a>Jl. Tiang Bendera III/70 Jakarta 11230 Indonesia</a>
-                </li>
-                <li>
-                    <div class="icon">
-                        <i class="fa-solid fa-phone"></i>
-                    </div>
-                    <a>6911590, 6909561, 6909562</a>
-                </li>
-                <li>
-                    <div class="icon">
-                        <i class="icon fa-brands fa-whatsapp"></i>
-                    </div>
-                    <a>081383456710</a>
-                </li>
-                <li>
-                    <div class="icon">
-                        <i class="icon fa-regular fa-envelope"></i>
-                    </div>
-                        <a>mkt.oscoutama@gmail.com</a><br>
-                    <div class="icon"></div>
-                        <a>opt.oscoutama@gmail.com</a>
-                </li>
-            </ul>
+<section id="contacts" class="contact">
+    <h1><b>Want to Reach Out? Contact Us!</b></h1>
+    <p>Reach us through emails and phone number below</p>
+
+    <div class="content">
+    <h3>Main Office</h3>
+    <ul>
+        <li>
+            <div class="icons">
+                <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <a>Jl. Tiang Bendera III, No. 70, Jakarta 11230</a>
+        </li>
+        <li>
+            <div class="icons">
+                <i class="fa-solid fa-phone"></i>
+            </div>
+            <a>6911590, 6909561, 6909562</a>
+        </li>
+        <li>
+            <div class="icons">
+                <i class="icons fa-brands fa-whatsapp"></i>
+            </div>
+            <a>081383456710</a>
+        </li>
+        <li>
+            <div class="icons">
+                <i class="icons fa-regular fa-envelope"></i>
+            </div>
+            <a>mkt.oscoutama@gmail.com</a>
+        </li> 
+        <li>
+        <div class="icons">
+            <i class="icons fa-regular fa-envelope"></i>
         </div>
+        <a>genenral.oscoutama@gmail.com</a>
+    </li>         
+    </ul>
+    </div>
 
+    <img class ="img" src="asset/maps.png" alt="map">
 
-
+</section>
 
     <!-- FOOTER -->
     <footer class="footer position-relative">
@@ -100,19 +108,5 @@
         </div>
     </footer>
 
-
-    <!-- JS -->
-    <script>
-        $(document).ready(function () {
-            $(".menu-icon").on("click", function () {
-                $("nav ul").toggleClass("showing");
-            });
-        });
-
-        // Scrolling Effect
-        $(window).on("load", function () {
-        $('header').addClass('black');
-
-    </script>
 </body>
 </html>

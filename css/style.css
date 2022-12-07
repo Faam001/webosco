@@ -6,7 +6,7 @@ html {
 }
 
 body {
-   animation: transitionIn 500ms;
+   animation: transitionIn 500ms
 }
 /* Sesi Header */
 
@@ -423,6 +423,7 @@ body {
    background-color: #24262b;
    padding-top: 40px;
    padding-bottom: 10px;
+   margin-top: auto;
 }
 
 .footer-col {

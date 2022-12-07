@@ -1,30 +1,51 @@
 
+.contact {
+   text-align: left;
+   padding-top: 195px;
+   min-height: 90vh;
+}
 
- .middle-text {
-    color: #000000;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
- }
+.contact li {
+   list-style-type: none;
+}
 
+.content {
+   padding-top: 150px;
+}
 
- .middle-text p {
-    font-size: 21px;
-    animation: transitionIn 1s;
- }
+.content h3 {
+   font-size: 32px;
+}
 
- .middle-text > p:first-child{
-    margin-bottom: 10px;
- }
+.content a {
+   font-size: 20px;
+}
 
- .middle-text .btn {
-    background-color: #E84D3D;
-    border-radius: 20px;
-    color: #fff;
-    font-size: 18px;
-    font-weight: bold;
-    padding: 10px 60px;
-    margin-top: 80px;
- }
+.icons {
+   color: #000;
+   display: inline-block;
+   width: 1.5rem;
+   height: 1.5rem;
+}
+
+.img {
+   max-width: 512px;
+   display: block;
+   margin-left: auto;
+   margin-top: -300px;
+}
+
+@media (max-width: 850px) {
+
+.content {
+   padding-top: 50px;
+   margin-left: 10px;
+   width: 100%;
+}
+
+.img {
+   margin-left: 5%;
+   margin-top: 0;
+}
+
+}
