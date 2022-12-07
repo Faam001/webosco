@@ -168,20 +168,17 @@ nav ul li a:hover {
    }
 }
 
-/*-------------------------------------- CONTENT -----------------------------------------*/
+/*-------------------------------------- GENERAL -----------------------------------------*/
 
 section {
-   padding: 50px 8% 80px;
-}
-
-.content {
+   padding: 50px 6% 10px;
    position: relative;
+   overflow: auto;
 }
 
 section h1 {
    font-family: Arial, Helvetica, sans-serif;
    font-size: 2rem;
-   margin: 0;
    text-align: center;
 }
 
@@ -192,7 +189,7 @@ section h1 {
 }
 
 section p {
-   font-size: 1.2rem;
+   font-size: 1.3rem;
    font-family: 'Open Sans';
    text-align: center;
 }
@@ -201,19 +198,19 @@ section p {
    margin: 0;
 }
 
-/*Middle*/
+/*----------------------------------------------Middle------------------------------------------*/
 
 .middle.homepage {
    background-image: url(../asset/homebg.png);
    background-position: right;
    background-repeat: no-repeat;
    background-size: cover;
-   height: 960px;
+   height: 750px;
    padding: 140px 0 100px 70px;
 }
 
 .middle.text {
-   margin-top: 120px;
+   margin-top: 80px;
    margin-left: 5%;
    animation: transitionIn 1.5s;
 }
@@ -232,10 +229,10 @@ section p {
 
 .middle .btn {
    color: #ffffff;
-   margin-top: 100px;
-   padding: 18px 32px;
+   margin-top: 30px;
+   padding: 13px 26px;
    margin-left: 5%;
-   font-size: 24px;
+   font-size: 18px;
    font-weight: bold;
    background-color: #E84D3D;
    border-radius: 100px;
@@ -257,100 +254,135 @@ section p {
    color: #fff;
 }
 
-/* INTRO */
+/*---------------------------------------------- INTRO ----------------------------------------------- */
 #intro h1 {
    text-align: left;
    font-size: 52px;
+   margin-top: 90px;
 }
 
-.img-circle {
+#intro h1 hr {
+   background-color: #E84D3D;
+   height: 3px;
+   width: 215px;
+   margin: 0;
+}
+
+#intro img {
+   position: absolute;
+   width: 70%;
+   top: -30px;
+   right: 50px;
+}
+
+.prg {
+   margin-top: 200px;
+}
+
+.prg * {
+   padding: 0 20px;
+}
+
+.prg>:first-child {
    float: left;
-   margin-right: 10px;
-   width: 75px;
+   width: 50%;
 }
 
-.img-circle2 {
-   position: absolute;
-   top: 48px;
-   right: 10px;
-   width: 90px;
-   z-index: -1;
-}
-
-.img-ship {
-   position: absolute;
-   left: 5%;
-   width: 40%;
-   z-index: -1;
-}
-
-.prg1 {
-   text-align: center;
-   margin: 35px 4% 0;
-   font-weight: 500;
-}
-
-.prg2 {
-   font-weight: 500;
-   display: inline-block;
-   text-align: right;
-   margin: 2.5rem 0 0 48%;
-   height: 150px;
-   width: 48%;
+.prg>:last-child {
+   float: right;
+   width: 50%;
 }
 
 #intro .btn-box {
+   margin-top: 60px;
+}
+
+#intro .btn-box .btn {
+   padding: 0;
+   height: 50px;
+   width: 150px;
+   margin: 0;
+   margin-right: 50px;
+}
+
+
+
+/*-------------------------------------------- TEAM -------------------------------------------*/
+
+#team {
+   padding: 80px 70px 0 0;
+   height: 700px;
+}
+
+#team .content img {
+   position: absolute;
+   left: 0;
+   top: 80px;
+   width: 60%;
+}
+
+#team h1 {
+   font-size: 3.2rem;
+   text-align: right;
+   margin: 90px 0 30px;
+}
+
+#team hr {
+   background-color: #E84D3D;
+   height: 5px;
+   width: 270px;
+   margin-left: auto;
+}
+
+#team .sub-heading {
    text-align: right;
 }
 
-#intro .btn {
-   background-color: #E84D3D;
-   border-radius: 15px;
-   color: white;
-   font-weight: 600;
-   height: 45px;
-   width: 170px;
+#team .btn {
+   padding: 0;
+   height: 50px;
+   width: 150px;
+   margin-left: 80%;
+   margin-top: 30px;
 }
 
-.services {
-   margin-right: 100px;
-}
-
-.our-fleet {
-   margin-right: 4%;
-}
-
-
-
-/* TEAM */
-
-#team {
+.member {
+   position: absolute;
+   left: 0;
+   top: 120px;
    text-align: center;
-}
-
-.teams {
-   padding: 0 15%;
+   width: 45%;
+   padding-left: 50px;
 }
 
 .card {
    border: none;
+   background-color: transparent;
    display: inline-block;
    font-family: Arial, Helvetica, sans-serif;
+   padding-bottom: 15px;
    width: 200px;
 }
 
 .card img {
-   max-width: 80%;
-   margin: 0 auto 20px;
+   max-width: 75%;
+   margin: 0 auto 10px;
 }
 
 .card-body {
    padding: 0;
+   color: #fff;
+}
+
+.card-title {
+   font-size: 1.7rem;
 }
 
 .card-text {
    font-weight: 300;
 }
+
+
 
 /* clients and acquintance */
 
