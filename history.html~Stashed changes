@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PT. Osco Utama</title>
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/style-history.css">
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/aa85d27970.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <nav>
+            <div class="logosco">
+                <a href="index.html"> <img src="asset/logosco.png" alt="icon"></a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="services.html">Services</a>
+                    </li>
+                    <li>
+                        <a href="fleets.html">Fleets</a>
+                    </li>
+                    <li>
+                        <a href="history.html">History</a>
+                    </li>
+                    <li>
+                        <a href="index.html#other-companies">Clients</a>
+                    </li>
+                        <a href="#" class="btn">Reach Us</a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- MAIN -->
+    <div class="middle services-page">
+        <div class="middle-text">
+            <p><b>Our History</b></p>
+            <p><b>Reliable. Experienced. Always Maintained.</b></p>
+            <p>We provide various sea freight services with our fleets</p>
+            <button class="btn">Reach Us</button>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!-- FOOTER -->
+    <footer class="footer position-relative">
+        <div class="container position-relative">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>contact us</h4>
+                    <h3>Main Office</h3>
+                    <ul>
+                        <li>
+                            <div class="icon">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <a>Jl. Tiang Bendera III, No.70 Jakarta, 11230</a>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <a>6911590, 6909561, 6909562</a>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <i class="icon fa-brands fa-whatsapp"></i>
+                            </div>
+                            <a>081383456710</a>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <i class="icon fa-solid fa-envelope"></i>
+                            </div>
+                                <a>mkt.oscoutama@gmail.com</a><br>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <i class="icon fa-solid fa-envelope"></i>
+                            </div>
+                                <a>general.oscoutama@gmail.com</a>
+                        </li>        
+                    </ul>
+                </div>
+
+                <div class="imgcol">
+                    <a><img src="asset/foot.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© 2022 PT. Osco Utama, All Rights Reserved. Member of Gesuri Lloyd Group.</p>
+        </div>
+    </footer>
+
+
+    <!-- JS -->
+    <script>
+        $(document).ready(function () {
+            $(".menu-icon").on("click", function () {
+                $("nav ul").toggleClass("showing");
+            });
+        });
+
+        // Scrolling Effect
+
+        $(window).on("scroll", function () {
+            var gap = 60;
+            if ($(window).scrollTop() > gap) {
+                $('header').addClass('black');
+            } else {
+                $('header').removeClass('black');
+            }
+        })
+
+    </script>
+</body>
+</html>
