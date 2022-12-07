@@ -38,7 +38,7 @@
 
    /* footer */
    .imgcol {
-      margin-left: 0;
+      margin: 0 auto;
    }
 }
 
@@ -92,6 +92,6 @@
       margin-bottom: 0px;
    }
    .imgcol {
-      margin-left: 0;
+      margin: 0 auto;
    }
 }
