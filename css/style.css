@@ -8,29 +8,26 @@ html {
 body {
    animation: transitionIn 500ms
 }
+
+
 /* Sesi Header */
 
 a:hover {
    cursor: pointer;
 }
 
-.logosco {
-   position: fixed;
-   display: inline-block;
-   margin: 3px 20px;
-   top: 20px;
-   font-weight: bold;
-   font-size: 25px;
-}
-
-.logosco:hover {
+.navbar-brand:hover {
    transition: all 0.3s ease;
    opacity: 0.7;
 }
 
-.logosco a {
-   color: #fff;
-   text-decoration: none;
+.navbar-brand b {
+   display: none;
+   color: black;
+}
+
+.navbar-brand b.white {
+   color: white;
 }
 
 header {
@@ -43,15 +40,15 @@ header {
    justify-content: space-around;
    align-items: center;
    background-color: transparent;
-   padding: 46px 0px;
+   padding: 0;
    transition: 500ms;
 }
 
-nav {
-   position: fixed;
-   width: 85%;
+.navbar {
+   width: 84vw;
    line-height: 60px;
    transition: 500ms;
+   padding: 0;
 }
 
 nav ul {
@@ -71,7 +68,6 @@ header.black {
    width: 85%;
    margin-top: 20px;
    margin-left: 7.5%;
-   padding: 45px;
 }
 
 nav ul li {
@@ -139,18 +135,60 @@ nav ul li a:hover {
 
 
 @media(max-width: 960px) {
- 
-   .logosco {
-      position: fixed;
+
+   .navbar {
+      width: 100vw;
    }
+
+   .navbar-toggler {
+      border: none;
+      color: transparent;
+   }
+
+   .navbar-toggler-icon {
+      width: 2rem;
+      height: 2rem;
+   }
+
+   .navbar-toggler-icon-x {
+      height: 32px;
+      width: 32px;
+      z-index: 2;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+   .navbar-toggler-icon-x .line {
+      display: block;
+      height: 4px;
+      width: 42px;
+      border-radius: 10px;
+      background: white;
+    }
+
+    .navbar-toggler-icon-x .line1 {
+      transform-origin: 0% 0%;
+      transform: rotate(45deg);
+    }
+
+    .navbar-toggler-icon-x .line2 {
+      transform-origin: 0% 100%;
+      transform: rotate(-45deg);
+    }
+   
+   .navbar {
+      line-height: 5vh;
+    }
+
+    .navbar-nav-scroll {
+      max-height: var(--bs-scroll-height,85vh);
+    }
 
    nav ul {
       max-height: 0px;
-      background: #000;
-   }
-
-   nav.black ul {
-      background: #000;
+      background-color: #24262b;;
+      border-radius: 40px;
    }
 
    nav ul li {
@@ -159,12 +197,30 @@ nav ul li a:hover {
       padding: 24px;
       text-align: center;
    }
+
+   nav ul li a {
+      font-size: 24px;
+    }
+
    header.black {
-      margin-left: 8%;
+      border-radius: 40px;
+      width: 90%;
+      margin-left: 5%;
    }
 
    .menu-icon {
       display: block;
+   }
+
+   .navbar-brand img {
+      width: 70px;
+   }
+
+   .navbar-brand b {
+      display: inline-block;
+      font-family: Arial, Helvetica, sans-serif;
+      position: relative;
+      left: -7px;
    }
 }
 
