@@ -312,6 +312,8 @@ section p {
    color: #fff;
 }
 
+
+
 /*---------------------------------------------- INTRO ----------------------------------------------- */
 #intro h1 {
    text-align: left;
@@ -334,21 +336,11 @@ section p {
 }
 
 .prg {
-   margin-top: 300px;
+   margin-top: 100px;
 }
 
-.prg * {
-   padding: 0 20px;
-}
-
-.prg>:first-child {
-   float: left;
-   width: 50%;
-}
-
-.prg>:last-child {
-   float: right;
-   width: 50%;
+.prg p {
+   padding: 0;
 }
 
 #intro .btn-box {
@@ -368,21 +360,19 @@ section p {
 /*-------------------------------------------- TEAM -------------------------------------------*/
 
 #team {
-   padding: 80px 70px 0 0;
-   height: 900px;
+   padding: 50px 0 0 0;
+   height: 800px;
+   overflow: hidden;
 }
 
-#team .content img {
-   position: absolute;
-   left: 0;
-   top: 80px;
-   width: 60%;
+#team .content {
+   padding-right: 70px;
 }
 
 #team h1 {
    font-size: 3.2rem;
    text-align: right;
-   margin: 90px 0 30px;
+   margin: 130px 0 30px;
 }
 
 #team hr {
@@ -394,6 +384,7 @@ section p {
 
 #team .sub-heading {
    text-align: right;
+   margin: 0;
 }
 
 #team .btn {
@@ -401,16 +392,26 @@ section p {
    height: 50px;
    width: 150px;
    margin-left: 80%;
-   margin-top: 30px;
+   margin-top: 80px;
 }
 
 .member {
    position: absolute;
    left: 0;
-   top: 120px;
+   top: 100px;
    text-align: center;
-   width: 45%;
-   padding-left: 50px;
+   width: 58%;
+}
+
+#team .member img[alt="team-bg"] {
+   max-width: 100%;
+}
+
+#team .member > div:last-child {
+   position: absolute;
+   top: 5%;
+   left: 0;
+   width: 80%;
 }
 
 .card {
@@ -433,7 +434,7 @@ section p {
 }
 
 .card-title {
-   font-size: 1.7rem;
+   font-size: 1.5rem;
 }
 
 .card-text {
