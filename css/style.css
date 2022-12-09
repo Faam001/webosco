@@ -9,11 +9,20 @@ body {
    animation: transitionIn 500ms
 }
 
-
 /* Sesi Header */
 
 a:hover {
    cursor: pointer;
+}
+
+.logosco:hover {
+   opacity: 0.8;
+   transition: 500ms;
+}
+
+.logosco {
+   height: 100px;
+   padding: 8px;
 }
 
 .navbar-brand:hover {
@@ -23,11 +32,7 @@ a:hover {
 
 .navbar-brand b {
    display: none;
-   color: black;
-}
-
-.navbar-brand b.white {
-   color: white;
+   color: rgb(255, 255, 255);
 }
 
 header {
@@ -50,6 +55,7 @@ header {
    transition: 500ms;
    padding: 0;
 }
+
 
 nav ul {
    list-style: none;
@@ -134,10 +140,9 @@ nav ul li a:hover {
 }
 
 
-@media(max-width: 960px) {
-
+@media(max-width: 1000px) {
    .navbar {
-      width: 100vw;
+      width: 90vw;
    }
 
    .navbar-toggler {
@@ -146,7 +151,7 @@ nav ul li a:hover {
    }
 
    .navbar-toggler-icon {
-      width: 2rem;
+      width: 2.5rem;
       height: 2rem;
    }
 
@@ -203,7 +208,7 @@ nav ul li a:hover {
     }
 
    header.black {
-      border-radius: 40px;
+      border-radius: 60px;
       width: 90%;
       margin-left: 5%;
    }
@@ -250,9 +255,6 @@ section p {
    text-align: center;
 }
 
-.row {
-   margin: 0;
-}
 
 /*----------------------------------------------Middle------------------------------------------*/
 
@@ -314,7 +316,7 @@ section p {
 #intro h1 {
    text-align: left;
    font-size: 52px;
-   margin-top: 90px;
+   margin-top: 215px;
 }
 
 #intro h1 hr {
@@ -367,7 +369,7 @@ section p {
 
 #team {
    padding: 80px 70px 0 0;
-   height: 800px;
+   height: 900px;
 }
 
 #team .content img {
@@ -470,11 +472,6 @@ body {
    margin: auto;
 }
 
-.row {
-   display: flex;
-   flex-wrap: wrap;
-}
-
 .footer {
    background-color: #24262b;
    padding-top: 40px;
@@ -528,25 +525,24 @@ body {
    margin: 0;
 }
 
-.footer-col a:hover,
-.copyright:hover {
-   color: #ffffff;
+.wut {
+   color: #fff;
+}
+
+.wut:hover {
    cursor: auto;
 }
 
 .imgcol {
-   height: 80px;
-   margin-left: auto;
+   display: block;
+   height: 100px;
+   margin: 0 auto;
 }
 
 .imgcol img {
+   display: block;
    max-height: 100%;
-}
-
-.imgcol a {
-   margin: 0 5px;
-   padding-right: 20px;
-   color: #fff;
+   margin-left: auto;
 }
 
 .copyright {

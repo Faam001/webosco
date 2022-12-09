@@ -9,12 +9,8 @@ $(window).on("scroll", function () {
     var gap = 60;
     if ($(window).scrollTop() > gap) {
         $('header').addClass('black');
-        $('.navbar-brand b').addClass('white');
-        $('.navbar').addClass('navbar-dark');
     } else {
         $('header').removeClass('black');
-        $('.navbar-brand b').removeClass('white');
-        $('.navbar').removeClass('navbar-dark');
     }
 })
 

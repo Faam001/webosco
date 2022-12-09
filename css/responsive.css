@@ -37,9 +37,6 @@
    }
 
    /* footer */
-   .imgcol {
-      margin: 0 auto;
-   }
 }
 
 
@@ -90,8 +87,5 @@
    .footer-col {
       width: 100%;
       margin-bottom: 0px;
-   }
-   .imgcol {
-      margin: 0 auto;
    }
 }
