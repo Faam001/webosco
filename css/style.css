@@ -569,6 +569,12 @@ body {
    max-width: 150px;
   }
 
+.boat:hover {
+   opacity: 0.7;
+   transition: 500ms;
+   cursor: pointer;
+}
+
 /* ANIMASI */
 
 @keyframes transitionIn {
