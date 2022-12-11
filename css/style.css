@@ -321,7 +321,7 @@ section p {
    margin-top: 215px;
 }
 
-#intro h1 hr {
+#intro hr {
    background-color: #E84D3D;
    height: 3px;
    width: 215px;
@@ -409,7 +409,7 @@ section p {
 
 #team .member > div:last-child {
    position: absolute;
-   top: 5%;
+   top: 0;
    left: 0;
    width: 80%;
 }
