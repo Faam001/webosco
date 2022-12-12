@@ -34,6 +34,11 @@
    }
 
    /* ------------------------ TEAM -------------------------*/
+
+   #other-companies {
+      margin-top: 0%;
+   }
+
    #team .content img {
       position: static;
       width: 150%;
@@ -143,6 +148,11 @@
 
 
    /* ------------------------ TEAM -------------------------*/
+
+   #other-companies {
+      margin-top: 0%;
+   }
+   
    #team .content img {
       position: static;
       width: 150%;
