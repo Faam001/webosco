@@ -381,6 +381,8 @@ section p {
    margin-left: auto;
 }
 
+
+
 #team .sub-heading {
    text-align: right;
    margin: 0;
@@ -403,7 +405,8 @@ section p {
 }
 
 #team .member img[alt="team-bg"] {
-   width: 100%;
+   max-width: 100%;
+   min-width: 60%;
 }
 
 #team .member > div:last-child {
@@ -540,7 +543,7 @@ body {
 
 .imgcol {
    display: block;
-   height: 100px;
+   height: 75px;
    margin: 0 auto;
 }
 
