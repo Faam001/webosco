@@ -336,7 +336,7 @@ section p {
 }
 
 .prg {
-   margin-top: 100px;
+   margin-top: 150px;
 }
 
 .prg p {
@@ -361,7 +361,7 @@ section p {
 
 #team {
    padding: 50px 0 0 0;
-   height: 800px;
+   height: 900px;
    overflow: hidden;
 }
 
@@ -398,13 +398,13 @@ section p {
 .member {
    position: absolute;
    left: 0;
-   top: 100px;
+   top: 150px;
    text-align: center;
    width: 58%;
 }
 
 #team .member img[alt="team-bg"] {
-   max-width: 100%;
+   width: 100%;
 }
 
 #team .member > div:last-child {
@@ -421,6 +421,7 @@ section p {
    font-family: Arial, Helvetica, sans-serif;
    padding-bottom: 15px;
    width: 200px;
+   margin-top: 50px;
 }
 
 .card img {
@@ -585,5 +586,3 @@ body {
       transform: translateY(0);
    }
 }
-
-@keyframes 
