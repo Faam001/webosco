@@ -317,15 +317,17 @@ section p {
 /*---------------------------------------------- INTRO ----------------------------------------------- */
 #intro h1 {
    text-align: left;
-   font-size: 52px;
-   margin-top: 215px;
+   font-size: 4vw;
+   margin-top: 8vw;
 }
 
 #intro hr {
    background-color: #E84D3D;
-   height: 3px;
+   border: none;
+   height: 5px;
    width: 215px;
    margin: 0;
+   opacity: 1;
 }
 
 #intro img {
@@ -336,7 +338,7 @@ section p {
 }
 
 .prg {
-   margin-top: 100px;
+   margin-top: 14vw;
 }
 
 .prg p {
@@ -344,17 +346,17 @@ section p {
 }
 
 #intro .btn-box {
-   margin-top: 60px;
+   margin-top: 3vw;
 }
 
 #intro .btn-box .btn {
+   font-size: 1.7vw;
    padding: 0;
-   height: 50px;
-   width: 150px;
+   height: 4vw;
+   width: 12vw;
    margin: 0;
-   margin-right: 50px;
+   margin-right: 4vw;
 }
-
 
 
 /*-------------------------------------------- TEAM -------------------------------------------*/
@@ -377,9 +379,11 @@ section p {
 
 #team hr {
    background-color: #E84D3D;
+   border: none;
    height: 5px;
    width: 270px;
    margin-left: auto;
+   opacity: 1;
 }
 
 #team .sub-heading {
@@ -412,6 +416,7 @@ section p {
    top: 0;
    left: 0;
    width: 80%;
+   height: 100%;
 }
 
 .card {
@@ -434,7 +439,7 @@ section p {
 }
 
 .card-title {
-   font-size: 1.5rem;
+   font-size: 1.3rem;
 }
 
 .card-text {
