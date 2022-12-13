@@ -579,6 +579,21 @@ body {
    cursor: pointer;
 }
 
+#left {
+   max-width: 50px; 
+   position: absolute; 
+   margin-top: 108px; 
+   z-index: 2;
+}
+
+#right {
+   max-width: 50px; 
+   position: absolute; 
+   margin-top: 108px; 
+   margin-left: 83%; 
+   z-index: 2
+}
+
 /* ANIMASI */
 
 @keyframes transitionIn {

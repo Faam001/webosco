@@ -103,6 +103,10 @@
 
 @media (max-width: 600px) {
 
+   #right {
+      margin-left: 72%;
+   }
+
    /*-------------------- MIDDLE ----------------------*/
    .middle.homepage {
       padding: 100px 10px 100px 10px;
