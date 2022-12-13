@@ -35,7 +35,7 @@
    margin-top: -300px;
 }
 
-@media (max-width: 850px) {
+@media (max-width: 1064px) {
 
 .content {
    padding-top: 50px;
@@ -44,8 +44,9 @@
 }
 
 .img {
-   margin-left: 5%;
+   margin: 0 auto;
    margin-top: 0;
+   width: 325px;
 }
 
 }

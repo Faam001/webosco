@@ -1,4 +1,4 @@
-@media (min-width:600px) and (max-width: 800px) {
+@media (min-width:600px) and (max-width: 900px) {
 
    /*-------------------- MIDDLE ----------------------*/
    .middle.homepage {
@@ -39,8 +39,12 @@
       padding: 0;
    }
 
-
    /* ------------------------ TEAM -------------------------*/
+
+   #other-companies {
+      margin-top: 0%;
+   }
+
    #team .content img {
       position: static;
       width: 150%;
@@ -106,6 +110,10 @@
 
 @media (max-width: 600px) {
 
+   #right {
+      margin-left: 72%;
+   }
+
    /*-------------------- MIDDLE ----------------------*/
    .middle.homepage {
       padding: 100px 10px 100px 10px;
@@ -155,6 +163,11 @@
 
 
    /* ------------------------ TEAM -------------------------*/
+
+   #other-companies {
+      margin-top: 0%;
+   }
+   
    #team .content img {
       position: static;
       width: 150%;
@@ -190,6 +203,7 @@
 
    #team .member {
       position: relative;
+      max-height: 100%;
       width: 130%;
       top: 0;
    }
@@ -200,7 +214,7 @@
    }
 
    #team .member .flex-column {
-      height: 100%;
+      height: 90%;
    }
 
    #team .member>div:last-child {
@@ -224,4 +238,12 @@
    .card-body .card-text {
       font-size: 1rem;
    }
+
+   .card-body .card-text {
+      font-size: 1rem;
+   }
+}
+
+
+@media (min-width:900px) and (max-width: 1400px) {
 }

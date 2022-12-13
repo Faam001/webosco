@@ -362,9 +362,8 @@ section p {
 /*-------------------------------------------- TEAM -------------------------------------------*/
 
 #team {
-   padding: 50px 0 0 0;
-   height: 800px;
-   overflow: hidden;
+   padding: 50px 10px 0 0;
+   overflow: visible;
 }
 
 #team .content {
@@ -386,6 +385,8 @@ section p {
    opacity: 1;
 }
 
+
+
 #team .sub-heading {
    text-align: right;
    margin: 0;
@@ -402,13 +403,14 @@ section p {
 .member {
    position: absolute;
    left: 0;
-   top: 100px;
+   top: 150px;
    text-align: center;
    width: 58%;
 }
 
 #team .member img[alt="team-bg"] {
    max-width: 100%;
+   min-width: 60%;
 }
 
 #team .member > div:last-child {
@@ -426,6 +428,7 @@ section p {
    font-family: Arial, Helvetica, sans-serif;
    padding-bottom: 15px;
    width: 200px;
+   margin-top: 50px;
 }
 
 .card img {
@@ -450,8 +453,12 @@ section p {
 
 /* clients and acquintance */
 
+#other-companies {
+   margin-top: 20%;
+}
+
 .companies {
-   padding: 0 8%;
+   padding: 0 10%;
 }
 
 .companies img {
@@ -486,7 +493,7 @@ body {
 }
 
 .footer-col {
-   width: 50%;
+   width: 100%;
    padding: 0 25px;
 }
 
@@ -541,7 +548,7 @@ body {
 
 .imgcol {
    display: block;
-   height: 100px;
+   height: 60px;
    margin: 0 auto;
 }
 
@@ -577,6 +584,21 @@ body {
    cursor: pointer;
 }
 
+#left {
+   max-width: 50px; 
+   position: absolute; 
+   margin-top: 108px; 
+   z-index: 2;
+}
+
+#right {
+   max-width: 50px; 
+   position: absolute; 
+   margin-top: 108px; 
+   margin-left: 83%; 
+   z-index: 2
+}
+
 /* ANIMASI */
 
 @keyframes transitionIn {
@@ -590,5 +612,3 @@ body {
       transform: translateY(0);
    }
 }
-
-@keyframes 
