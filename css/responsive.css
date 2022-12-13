@@ -211,17 +211,21 @@
    }
 
    .card {
-      width: 30%;
+      width: 40%;
       padding: 0;
    }
 
    .card img {
-      max-width: 75%;
+      max-width: 60%;
       margin: 0 auto 10px;
    }
 
    .card-title {
-      font-size: 1.2rem;
+      font-size: 1.1rem;
+   }
+
+   .card-body .card-text {
+      font-size: 1rem;
    }
 }
 
