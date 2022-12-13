@@ -192,6 +192,7 @@
 
    #team .member {
       position: relative;
+      max-height: 100%;
       width: 130%;
       top: 0;
    }
@@ -226,5 +227,4 @@
 
 
 @media (min-width:900px) and (max-width: 1400px) {
-
-   
+}
