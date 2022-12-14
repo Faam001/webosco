@@ -39,71 +39,10 @@
       padding: 0;
    }
 
+
    /* ------------------------ TEAM -------------------------*/
-
-   #other-companies {
-      margin-top: 0%;
-   }
-
-   #team .content img {
-      position: static;
-      width: 150%;
-   }
-
-   #team h1 {
-      margin: 0;
-   }
-
-   #team .content h1:first-child,
-   #team .content .sub-heading {
-      padding-right: 10%;
-   }
-
-   #team .content .sub-heading {
-      margin-bottom: 20px;
-   }
-
-   #team .content button:first-of-type {
-      margin: 40px 0 0 50%;
-      transform: translateX(-50%);
-   }
-
-   #team .content {
-      padding: 0;
-   }
-
    #team .member {
-      position: relative;
-      width: 130%;
-      max-height: 100%;
-      top: 0;
-   }
-
-   #team .member .flex-column {
-      height: 100%;
-   }
-
-   #team .member img {
-      position: relative;
-      width: 100%;
-   }
-
-   #team .member>div:last-child {
-      width: 80%;
-   }
-
-   .card {
-      width: 30%;
-      padding: 0;
-   }
-
-   .card img {
-      max-width: 75%;
-      margin: 0 auto 10px;
-   }
-
-   .card-title {
-      font-size: 1.2rem;
+      top: 8.5vw;
    }
 }
 
@@ -163,95 +102,71 @@
 
 
    /* ------------------------ TEAM -------------------------*/
-
-   #other-companies {
-      margin-top: 0%;
-   }
-   
-   #team .content img {
-      position: static;
-      width: 150%;
+   #team img[src="asset/team-bg.svg"] {
+      display: none;
    }
 
-   #team h1 {
-      font-size: 2.1rem;
-      margin: 0;
-   }
-
-   #team .content h1:first-child,
-   #team .content .sub-heading {
-      padding-right: 10%;
-   }
-
-   #team .content .sub-heading {
-      font-size: 1.1rem;
-      margin-bottom: 20px;
-   }
-
-   #team hr {
-      width: 210px;
-   }
-
-   #team .content button:first-of-type {
-      margin: 40px 0 0 50%;
-      transform: translateX(-50%);
-   }
-
-   #team .content {
-      padding: 0;
+   #team img[src="asset/team-bg-small.svg"] {
+      display: inline;
    }
 
    #team .member {
-      position: relative;
-      max-height: 100%;
-      width: 130%;
-      top: 0;
+      top: 7%;
+      left: 0;
+      width: 100vw;
    }
 
-   #team .member img {
-      position: relative;
-      width: 100%;
+   #team .member div>* {
+      flex-direction: column;
+      margin-top: 0 !important;
    }
 
-   #team .member .flex-column {
-      height: 90%;
-   }
-
-   #team .member>div:last-child {
-      width: 80%;
-   }
-
-   .card {
-      width: 40%;
-      padding: 0;
+   #team .card {
+      line-height: 20px;
+      margin: auto;
+      margin-bottom: 0px;
+      width: 40vw;
    }
 
    .card img {
-      max-width: 60%;
-      margin: 0 auto 10px;
+      max-width: 55%;
    }
 
    .card-title {
-      font-size: 1.1rem;
+      font-size: 4vw;
    }
 
-   .card-body .card-text {
-      font-size: 1rem;
+   .card-text {
+      font-size: 3.5vw;
    }
 
-   .card-body .card-text {
-      font-size: 1rem;
+   #team .title {
+      top: 70%;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 80vw;
    }
 
-   #left {
-      margin-top: 90px;
+   #team .title h1 {
+      font-size: 8vw;
+      text-align: right;
    }
 
-   #right {
-      margin-top: 90px;
+   #team hr {
+      width: 48vw;
+   }
+
+   #team .title p {
+      font-size: 3vw;
+      text-align: right;
+   }
+
+   #team .btn {
+      font-size: 3vw;
+      margin: 2% 0 0 50%;
+      height: 8vw;
    }
 }
 
 
-@media (min-width:900px) and (max-width: 1400px) {
-}
+@media (min-width:900px) and (max-width: 1400px) {}
