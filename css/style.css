@@ -299,7 +299,6 @@ section p {
 }
 
 
-
 .middle b {
    font-size: 32px;
    font-family: 'Open Sans';
@@ -330,15 +329,15 @@ section p {
    opacity: 1;
 }
 
-#intro img {
+#intro .world {
    position: absolute;
-   width: 70%;
-   top: -30px;
-   right: 50px;
+   width: 60%;
+   top: 100px;
+   right: 60px;
 }
 
 .prg {
-   margin-top: 14vw;
+   margin-top: 3vw;
 }
 
 .prg p {
@@ -346,18 +345,22 @@ section p {
 }
 
 #intro .btn-box {
-   margin-top: 3vw;
+   margin-top: 5vw;
 }
 
 #intro .btn-box .btn {
-   font-size: 1.7vw;
+   font-size: 1.1vw;
    padding: 0;
    height: 4vw;
-   width: 12vw;
+   width: 10vw;
    margin: 0;
    margin-right: 4vw;
+   margin-left: 2vw;
 }
 
+.stats img {
+   height: 15vw;
+}
 
 /*-------------------------------------------- TEAM -------------------------------------------*/
 
@@ -418,7 +421,7 @@ section p {
    top: 50%;
    right: 5vw;
    transform: translateY(-50%);
-   width: 35vw;
+   width: 45vw;
 }
 
 #team .title h1 {
@@ -584,16 +587,16 @@ body {
 #left {
    max-width: 50px; 
    position: absolute; 
-   margin-top: 108px; 
+   margin-top: 45px; 
    z-index: 2;
 }
 
 #right {
    max-width: 50px; 
    position: absolute; 
-   margin-top: 108px; 
+   margin-top: 45px; 
    margin-left: 83%; 
-   z-index: 2
+   z-index: 2;
 }
 
 /* ANIMASI */

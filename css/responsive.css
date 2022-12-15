@@ -6,7 +6,7 @@
    }
 
    /* ---------------------- INTRO -------------------- */
-   #intro img {
+   #intro .world {
       position: static;
       width: 100%;
    }
@@ -39,6 +39,10 @@
       padding: 0;
    }
 
+   .stats img {
+      margin-left: 10%;
+      height: 35vw;
+   }
 
    /* ------------------------ TEAM -------------------------*/
    #team .member {
@@ -64,7 +68,7 @@
    }
 
    /* ---------------------- INTRO -------------------- */
-   #intro img {
+   #intro .world {
       position: static;
       width: 100%;
    }
@@ -100,6 +104,10 @@
       padding: 0;
    }
 
+   .stats img {
+      margin-left: 10%;
+      height: 35vw;
+   }
 
    /* ------------------------ TEAM -------------------------*/
    #team img[src="asset/team-bg.svg"] {
@@ -111,7 +119,7 @@
    }
 
    #team .member {
-      top: 7%;
+      top: 9%;
       left: 0;
       width: 100vw;
    }
@@ -141,7 +149,7 @@
    }
 
    #team .title {
-      top: 75%;
+      top: 70%;
       left: 50%;
       transform: translateX(-50%);
       width: 80vw;
@@ -165,7 +173,7 @@
    #team .btn {
       font-size: 3vw;
       margin: 2% 0 0 50%;
-      height: 8vw;
+      height: 6vw;
    }
 }
 
