@@ -141,7 +141,7 @@
    }
 
    #team .title {
-      top: 70%;
+      top: 75%;
       left: 50%;
       transform: translateX(-50%);
       width: 80vw;
@@ -154,10 +154,11 @@
 
    #team hr {
       width: 48vw;
+      margin-bottom: 0;
    }
 
    #team .title p {
-      font-size: 3vw;
+      font-size: 3.3vw;
       text-align: right;
    }
 
