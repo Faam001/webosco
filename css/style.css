@@ -321,7 +321,6 @@ section p {
 #intro h1 {
    text-align: left;
    font-size: 4vw;
-   margin-top: vw;
 }
 
 #intro hr {
@@ -336,8 +335,8 @@ section p {
 #intro .world {
    position: absolute;
    width: 60%;
-   top: 100px;
-   right: 60px;
+   top: 80px;
+   right: 40px;
 }
 
 .prg {
