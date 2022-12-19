@@ -374,7 +374,7 @@ section p {
 
 #team img[src="asset/team-bg.svg"] {
    display: inline;
-   max-width: 100%;
+   width: 100%;
 }
 
 #team img[src="asset/team-bg-small.svg"] {
