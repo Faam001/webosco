@@ -64,6 +64,7 @@
    /*-------------------- MIDDLE ----------------------*/
    .middle.homepage {
       padding: 100px 10px 100px 10px;
+      height: 720px;
    }
 
    .middle p,
@@ -73,7 +74,8 @@
 
    .lmbtn img {
       display: block;
-      margin: 60% auto;
+      margin: 25% auto;
+      max-width: 120px;
    }
 
    /* ---------------------- INTRO -------------------- */
