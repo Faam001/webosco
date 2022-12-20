@@ -6,7 +6,7 @@ $(document).ready(function () {
 
 // Scrolling Effect
 $(window).on("scroll", function () {
-    var gap = 60;
+    var gap = 30;
     if ($(window).scrollTop() > gap) {
         $('header').addClass('black');
     } else {
