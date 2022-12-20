@@ -4,7 +4,6 @@
    .middle.homepage {
       padding-top: 100px;
    }
-
    /* ---------------------- INTRO -------------------- */
    #intro .world {
       position: static;
@@ -70,6 +69,11 @@
    .middle p,
    .middle b {
       font-size: 26px;
+   }
+
+   .lmbtn img {
+      display: block;
+      margin: 60% auto;
    }
 
    /* ---------------------- INTRO -------------------- */

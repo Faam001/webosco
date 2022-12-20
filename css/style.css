@@ -267,6 +267,10 @@ section p {
    padding: 140px 0 100px 70px;
 }
 
+.lmbtn img {
+   display: none;
+}
+
 .middle.text {
    margin-top: 80px;
    margin-left: 5%;
