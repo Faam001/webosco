@@ -934,7 +934,7 @@ body {
    }
 
    #team .member {
-      top: 9%;
+      top: 12%;
       left: 0;
       width: 100vw;
    }
@@ -964,7 +964,7 @@ body {
    }
 
    #team .title {
-      top: 72%;
+      top: 70%;
       left: 50%;
       transform: translateX(-50%);
       width: 80vw;
