@@ -716,7 +716,7 @@ body {
 
  .middle-text {
     position: absolute;
-    top: 60%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -879,6 +879,9 @@ body {
       max-width: 120px;
    }
 
+   .middle-text {
+      top: 60%;
+   }
    /* ---------------------- INTRO -------------------- */
    #intro .world {
       position: static;
