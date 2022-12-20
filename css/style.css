@@ -647,11 +647,10 @@ body {
 
 /*---------------------------------------- Contacts Page ---------------------------------------*/
 
-
 .contact {
    text-align: left;
-   padding-top: 195px;
-   min-height: 90vh;
+   padding-top: 120px;
+   min-height: 85vh;
 }
 
 .contact li {
