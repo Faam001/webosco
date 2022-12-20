@@ -786,8 +786,6 @@ body {
 }
 
 
-
-
 /*---------------------------------------- Responsive Design ---------------------------------------*/
 
 @media (min-width:600px) and (max-width: 900px) {
@@ -944,7 +942,7 @@ body {
    }
 
    #team .card {
-      line-height: 20px;
+      line-height: 10px;
       margin: auto;
       margin-bottom: 0px;
       width: 40vw;
@@ -963,7 +961,7 @@ body {
    }
 
    #team .title {
-      top: 70%;
+      top: 72%;
       left: 50%;
       transform: translateX(-50%);
       width: 80vw;
@@ -978,6 +976,8 @@ body {
       width: 48vw;
       margin-bottom: 0;
    }
+
+
 /* title */
    #team .title p {
       font-size: 3.3vw;
