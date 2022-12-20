@@ -738,7 +738,7 @@ body {
     font-size: 16px;
     font-weight: bold;
     padding: 10px 60px;
-    margin-top: 80px;
+    margin-top: 70px;
     margin-left: 0%;
  }
 
@@ -861,6 +861,10 @@ body {
 
    .middle.services-page {
       height: 700px;
+   }
+
+   .middle-text .btn {
+      margin-left: 5%;
    }
 
    .middle b {
