@@ -578,6 +578,11 @@ body {
 }
 
 /*---------------------------------------- Services Page ---------------------------------------*/
+
+#services-bg {
+   background-image: url(../asset/services-bg.png);
+}
+
 .prg1 {
    color: #000;
    padding-top: 50px;
@@ -606,6 +611,10 @@ body {
 
 /*---------------------------------------- Fleets Page ---------------------------------------*/
 
+#fleets-bg {
+   background-image: url(../asset/fleets-bg.png);
+}
+
 #ship-tug .card {
    min-width: 480px;
  }
@@ -619,6 +628,10 @@ body {
  }
 
 /*---------------------------------------- History Page ---------------------------------------*/
+
+#history-bg {
+   background-image: url(../asset/history-bg.png);
+}
 
 .history {
    margin-left: 12%;
@@ -694,7 +707,6 @@ body {
 /*---------------------------------------- Cross Style ---------------------------------------*/
 
 .middle.services-page {
-   background-image: url(../asset/services-bg.png);
    background-position: right;
    background-repeat: no-repeat;
    background-size: cover;
