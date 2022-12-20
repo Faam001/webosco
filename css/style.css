@@ -859,9 +859,16 @@ body {
       height: 700px;
    }
 
-   .middle p,
+   .middle.services-page {
+      height: 700px;
+   }
+
    .middle b {
       font-size: 26px;
+   }
+
+   .middle p {
+      font-size: 18px;
    }
 
    .lmbtn img {
